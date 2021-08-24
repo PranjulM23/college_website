@@ -1,0 +1,492 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+.banner{ 
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.1),black),url(img/images.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+nav{ 
+    width: 100%;
+}
+.container.sticky{ 
+    background: rgb(73, 90, 92);
+    height: 70px;
+} 
+.container{ 
+    position: fixed;
+    display: flex;
+    width: 100%;
+}
+/* bars style */
+    /* .btn { 
+        color: #fff;
+        font-size: 23px;
+        cursor: pointer;
+        display: none;
+    }   */
+
+.firsthalf{ 
+    width: 50%;
+    list-style: none;
+}
+.logo{ 
+    margin: 8px 12px;
+}
+.logo img{ 
+    width: 100px;
+    border-radius: 100px;
+}
+.secondhalf{ 
+    width: 50%;
+}
+.secondhalf ul{ 
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.secondhalf ul li{ 
+    list-style: none;
+    margin: 8px 4px;
+    padding: 18px 15px;
+}
+.secondhalf ul li a{ 
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    text-align: right;
+    padding: 5px 5px;
+    transition: all 0.5s ease-in-out;
+}
+.secondhalf ul li a:hover{ 
+    color: #22eeda;
+    border-radius: 20px;
+}
+.home{  
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.text-small{ 
+    font-size: 50px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+}
+.text-big{ 
+    margin: 10px 3px;
+    max-width: 33%;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.buttons{ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+.btn{ 
+    width: 45%;
+    padding: 15px;
+    cursor: pointer;
+    margin: 12px 0px;
+}
+.btn a{ 
+    border: 2px solid white;
+    border-radius: 4px;
+    padding: 12px 12px;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: all 0.5s ease;
+}
+.btn a:hover{ 
+  border: 2px solid red;
+  border-radius: 4px;
+  color: white;
+  background-color:red;
+}
+
+ .course{ 
+     /* background-color: rgb(216, 216, 216); */
+    height: 80vh;
+    width: 100%;
+}
+.heading{ 
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 24px;
+    margin: 20px;
+    font-weight: 500;
+}
+.heading p{ 
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.degree{ 
+    border: 2px solid #eccac6;
+    border-radius: 8px;
+    margin: 15px;
+    height: 360px;
+    background-color:#ebcac6;
+}
+.degree h2{ 
+    margin: 30px;
+}
+.degree .para{ 
+    display: flex;
+    align-items: center;
+    height: 60%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    justify-content: center;
+}
+.post{ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.campus{ 
+    height: 80vh;
+    width: 100%;
+    background-color: #eaeaea;
+}
+ .images{ 
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+} 
+
+.images img{ 
+    width: 90%;
+}
+.img3{ 
+    height: 289px;
+    width: 400px;
+    object-fit: fill;
+}
+.img2{ 
+    height: 289px;
+    width: 400px;
+    object-fit: fill;
+}
+.paras { 
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.p{ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 90%;
+}
+.p p{ 
+    width: 100%;
+    font-size: 20px;
+}
+.li{ 
+    width: 100%;
+} 
+.ses{ 
+    display: flex;
+    flex-direction: row;
+
+}
+.facilities{ 
+    height: 80vh;
+}
+.company{ 
+    height: 80vh;
+}
+.recruiter{ 
+    display: flex;
+    text-align: center;
+   align-items: center;
+   justify-content: center;
+   margin-left: 30px;
+}
+.recruiter img{ 
+    display: flex;
+    width: 90%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.middle{ 
+    height: 50vh;
+    background-image: linear-gradient(rgba(0,0,0,0.6),black),url(img/1.jpg.jpeg);
+    background-position: center;
+    background-size: cover;
+    margin: 100px 150px;
+    border-radius: 10px;
+}
+.content{ 
+    justify-content: flex-end;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 35vh;
+}
+.content p{ 
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    /* height: 50vh; */
+    font-size: 30px;
+}
+.but{ 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.but a{ 
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: 1px solid white;
+   border-radius: 8px;
+   margin: 10px ;
+   transition: all 0.5s ease;
+}
+.but a:hover{ 
+    color: white;
+    background-color: red;
+    border: 1px solid red;
+}
+.about{ 
+    height: 30vh;
+    background-color: #eaeaea;
+}
+.head h3{
+    font-size: 25px;
+    font-weight: 600;
+    margin: 20px;
+ }
+ .head p{ 
+     max-width: 100%;
+ }
+ .social-links {  
+    text-align: center;
+}
+.social-links .fa{  
+    height: 40px;
+    width: 40px;
+    font-size: 20px;
+    line-height: 40px;
+    border: 1px solid #009688;
+    margin: 30px 5px 0;
+    color: #009688;
+    cursor: pointer;
+    transition: .5s;
+ }
+.social-links .fa:hover{ 
+    background: #019587;
+    color: #fff;
+    transform: translateY(-20%);   
+}
+.social-links p{ 
+    margin-top: 20px;
+    font-size: 18px;
+ }
+@media(max-width:1500px){ 
+    
+    .course{ 
+        height: 65vh;
+    }
+    .campus{ 
+        height: 60vh;
+    }
+    .facilities{ 
+        height: 60vh;
+    }
+    .company{ 
+        height: 60vh;
+    }
+}
+@media(max-width:1400px){ 
+    .secondhalf { 
+        width: 100%;
+    }
+    .facilities{ 
+        height: auto;
+    }
+    .company{ 
+        height: auto;
+    }
+    .course{ 
+        height: auto;
+    }
+    .about{ 
+        height: auto;
+    }
+    .post{ 
+        flex-direction: column;
+    }
+    .degree{ 
+        width: 80%;
+    }
+    .text-big{ 
+        max-width: 50%;
+    }
+    .buttons{ 
+        width: 100%;
+    }
+    .paras{ 
+        width: 90%;
+    }
+    .img1{
+        height: 289px;
+        width: auto;
+        object-fit: cover;
+    }
+    .campus{ 
+        height: auto;
+    }
+    .p{ 
+        margin: 25px;
+       }
+}
+@media(max-width:1000px){ 
+    .img3{ 
+        height: auto;
+        object-fit: cover;
+    }
+    .content p{ 
+        font-size: 22px;
+    }
+    .img2{ 
+        height: auto;
+        object-fit: cover;
+    } 
+    .ses{ 
+        flex-direction: column;
+    }
+    .img1{
+        height: auto;
+        width: auto;
+        object-fit: cover;
+     }
+     .p p{ 
+         font-size: 35px;
+     }
+     .li li{ 
+         font-size: 27px;
+        }
+        .middle{
+            height: 30vh; 
+            margin: 30px 60px;
+            
+        }
+        .content{
+            height:20vh; 
+            }
+}
+@media(max-width:650px){ 
+   .text-big{ 
+       max-width: 70%;
+    }
+    .content p{ 
+        font-size: 22px;
+        max-width: 80%;
+    }
+    .text-small{ 
+        font-size: 40px;
+    }
+    .recruiter img{ 
+    width: 100%;
+}
+.middle{
+    height: 30vh; 
+}
+.content{
+    height:20vh; 
+}
+}
+@media(max-width:560px){ 
+    .content p{ 
+        font-size: 20px;
+        max-width: 100%;
+    }
+    .text-big{ 
+        max-width: 100%;
+    }
+    .text-small{ 
+       font-size: 40px;
+    }
+    .p p{ 
+        font-size: 25px;
+    }
+    .li li{ 
+        font-size: 20px;
+}
+.rec{ 
+    font-size: 25px;
+}
+.content{ 
+    height: 23vh;
+}
+.btn a { 
+    font-size: 12px;
+}
+}
+@media(max-width:460px){ 
+    .content{ 
+        height: 23vh;
+    }
+    .text-big{ 
+       max-width: 71%;
+    }
+    .text-small{ 
+       font-size: 31px;
+    }
+    .btn a { 
+    font-size: 12px;
+}
+.content p{ 
+    font-size: 17px;
+    max-width: 100%;
+}
+}
+@media(max-width:420px){ 
+    .content{ 
+        height: 25vh;
+    }
+    .text-small{ 
+        font-size: 25px;
+    }
+}
+@media(max-width:370px){ 
+    .text-small{ 
+        font-size: 25px;
+    }
+    .text-big{ 
+        max-width: 90%;
+    }
+    .content{ 
+        height: 28vh;
+    }
+    .middle{ 
+        margin: 30px 30px;
+    }
+}
+
